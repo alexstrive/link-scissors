@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+body {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  background-image: url("../images/bg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+}
+#ls-form {
+  margin-top: 300px;
+  background-color: #f44336;
+  text-align: center;
+  padding: 10px;
+}
+#ls-form label {
+  color: #fff;
+  font-size: 30px;
+}
+#ls-form input,
+#ls-form button {
+  border: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+  margin-bottom: 5px;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.26);
+  transition: box-shadow 0.5s;
+}
+#ls-form input:focus,
+#ls-form button:focus {
+  z-index: 10;
+  box-shadow: 0 3px 5px 3px rgba(0,0,0,0.26);
+  outline: none;
+  transition: box-shadow 0.5s;
+}
+#ls-form #full-link-field {
+  padding: 10px;
+}
+#ls-form #btn-link {
+  border: 0;
+  background-color: #ff9800;
+  padding: 5px;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.26);
+  transition: 0.5s;
+}
+#ls-form #btn-link:hover {
+  background-color: #ffb74d;
+  transition: background-color 0.5s;
+}
+#ls-form #btn-link:active {
+  box-shadow: 0 3px 5px 3px rgba(0,0,0,0.26);
+  background-color: #f57c00;
+  transition: 0.5s;
+}
+#ls-form #short-link-field {
+  padding: 10px;
+  margin: 0;
+}

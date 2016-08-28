@@ -1,0 +1,51 @@
+@import "colors.styl"
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+
+body
+  font-size 18px
+  font-weight bold
+  font-family 'Poiret One', cursive
+  background-image url("../images/bg.jpg")
+  background-position top
+  background-repeat no-repeat
+
+#ls-form
+  margin-top 300px
+  background-color red-500
+  text-align center
+  padding 10px
+  label
+    color white
+    font-size 30px
+  input
+  button
+    border 0
+    text-align center
+    width 100%
+    z-index 5
+    margin-bottom 5px
+    box-shadow 0 3px 5px 0 rgba(0, 0, 0, 0.26)
+    transition box-shadow .5s
+    &:focus
+      z-index 10
+      box-shadow 0 3px 5px 3px rgba(0, 0, 0, 0.26)
+      outline none
+      transition box-shadow .5s
+  #full-link-field
+    padding 10px
+  #btn-link
+    border 0
+    background-color orange-500
+    padding 5px
+    box-shadow 0 3px 5px 0 rgba(0, 0, 0, 0.26)
+    transition .5s
+    &:hover
+      background-color orange-300
+      transition background-color .5s
+    &:active
+      box-shadow 0 3px 5px 3px rgba(0, 0, 0, 0.26)
+      background-color orange-700
+      transition .5s
+  #short-link-field
+    padding 10px
+    margin 0
